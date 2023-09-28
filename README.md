@@ -113,7 +113,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- The wildcard selector used was taken from the Love Running project.
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
