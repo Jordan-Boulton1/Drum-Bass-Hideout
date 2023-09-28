@@ -17,13 +17,19 @@
         <a href="index.html">
             <h1 class="logo">Drum & Bass Hideout</h1>
         </a>
-        <nav>
-            <ul class="navbar-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">Sign up</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown-menu">
+                <button class="dropdown-btn">About <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Dimension</a>
+                    <a href="#">Sub Focus</a>
+                    <a href="#">Wilkinson</a>
+                </div>
+            </div>
+            <a href="#">Sign up</a>
+        </div>
     </header>
     <!-- Main content -->
     <main>
@@ -33,5 +39,6 @@
     <footer>
         <h3>footer</h3>
     </footer>
+    <script src="https://kit.fontawesome.com/c649b17804.js" crossorigin="anonymous"></script>
 </body>
 </html>
