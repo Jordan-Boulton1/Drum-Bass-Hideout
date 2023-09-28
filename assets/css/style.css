@@ -9,6 +9,9 @@
 
 /* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,8 +29,37 @@ h1 {
     text-transform: uppercase;
 }
 
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar div {
+    flex: 1 1 200px;
+    height: 50px;
+}
+.navbar .nav-btns a {
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.navbar .nav-btns a:hover {
+    background-color: orangered;
+}
+
+.navbar .nav-logo h1 {
+    margin-left: 10px;
+    color: #fff;
+    text-align: left;
+}
+
 /* Main content */
 main {
+    flex: 1 0 auto;
     background-color: aqua;
 }
 
