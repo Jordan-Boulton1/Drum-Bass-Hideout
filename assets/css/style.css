@@ -1,19 +1,37 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rammetto+One&display=swap');
 
+/* Aesterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* General styles */
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Header */
 header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Rammetto One', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Main content */
 main {
     background-color: aqua;
 }
 
+/* Footer */
 footer {
     background-color: green;
 }
