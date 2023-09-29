@@ -19,20 +19,30 @@
   </head>
 
   <body>
-    <!-- Header -->
+    <!-- Navigation bar -->
     <header>
-      <div class="navbar">
-        <div class="nav-logo">
-          <a href="index.html">
-            <h1>Drum & Bass Hideout</h1>
-          </a>
-        </div>
-        <div class="nav-btns">
-          <a href="index.html">Home</a>
-          <a href="href">About</a>
-          <a href="#">Sign up</a>
-        </div>
+      <!-- Logo -->
+      <div class="logo">
+        <h1>Drum&Bass Hideout</h1>
       </div>
+      <!-- Navigation burger/open icon -->
+      <input type="checkbox" id="nav-menu" />
+      <label for="nav-menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <!-- Navigation menu -->
+      <nav>
+        <!-- Navigation close icon -->
+        <label for="nav-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign up</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- Main content -->
     <main>
@@ -85,6 +95,7 @@
     <footer>
       <h3>footer</h3>
     </footer>
+    <!-- Font Awesome kit-->
     <script
       src="https://kit.fontawesome.com/c649b17804.js"
       crossorigin="anonymous"
