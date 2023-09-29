@@ -51,6 +51,13 @@ nav ul {
   gap: 2rem;
 }
 
+nav ul li a:hover {
+  border-bottom: 1px solid #e25e0f;
+}
+
+#nav-menu {
+  display: none;
+}
 
 /* Main content */
 main {
@@ -62,6 +69,7 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap;
   position: relative;
+  margin-top: 75px;
 }
 
 .card {
@@ -109,4 +117,38 @@ main {
 /* Footer */
 footer {
   background-color: green;
+}
+
+/* Media query for large or landscape phones */
+@media screen and (max-width:576px) {
+  label {
+    display: block;
+  }
+  nav {
+    width: 150px;
+    position: absolute;
+    background-color: #25201d;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    /* Prevents the navigation menu from being constantly open */
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99;
+  }
+  nav ul li a, nav label {
+    color: #e25e0f;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav label {
+    text-align: right;
+  }
+  /* When button is pressed the menu shows up */
+  input:checked ~ nav {
+    visibility: visible;
+    opacity: 1;
+  }
 }
