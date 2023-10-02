@@ -1,7 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rammetto+One&display=swap");
 
-/* Aesterisk wildcard selector to override default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
   padding: 0;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   background-color: #e7eef4;
 }
 
-a {
+a, button {
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  height: 92vh;
+  height: 100vh;
   margin: 20px 0;
 }
 
@@ -83,7 +83,7 @@ main {
   background-color: #1d1d25;
   border-radius: 7px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
   margin: 20px;
   height: fit-content;
 }
@@ -122,6 +122,67 @@ main {
   color: #fff;
 }
 
+/* Artist section */
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: #1d1d25;
+  /* Flexbox properties */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-content {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  /* Flex properties */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about .artist-content img {
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.artist-text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.artist-text h2 {
+  color: #e25e0f;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.artist-text p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.biography {
+  background-color: #e25e0f;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+
+iframe {
+  margin-top: 50px;
+}
+
 /* Footer */
 footer {
   background-color: green;
@@ -158,5 +219,24 @@ footer {
   input:checked ~ nav {
     visibility: visible;
     opacity: 1;
+  }
+
+  /* Artist section */
+
+  .about .artist-content img {
+    margin-bottom: 35px;
+  }
+
+  .artist-text h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .about {
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
   }
 }
