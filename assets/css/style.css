@@ -73,8 +73,8 @@ main {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  height: 100vh;
-  margin: 20px 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -85,7 +85,6 @@ main {
   overflow: hidden;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
   margin: 20px;
-  height: fit-content;
 }
 /* Setting the card img size and making the entire image fit within its container */
 .card img {
@@ -219,6 +218,12 @@ footer {
   input:checked ~ nav {
     visibility: visible;
     opacity: 1;
+  }
+
+  /* Card section */
+  .card-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   /* Artist section */
