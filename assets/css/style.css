@@ -154,6 +154,9 @@ main {
   width: 550px;
   max-width: 100%;
   padding: 0 10px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
 }
 
 .artist-text h2 {
@@ -171,11 +174,22 @@ main {
 }
 
 .biography {
+  max-width: 150px;
   background-color: #e25e0f;
   color: #fff;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px 30px;
+  margin-right: 20px;
+}
+
+.socials {
+  font-size: 24px;
+  align-self: center;
+}
+
+.socials a {
+  color: #e25e0f;
 }
 
 iframe {
