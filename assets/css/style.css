@@ -155,7 +155,7 @@ main {
   max-width: 100%;
   padding: 0 10px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -175,16 +175,18 @@ main {
 
 .biography {
   max-width: 150px;
+  max-height: 50px;
   background-color: #e25e0f;
   color: #fff;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px 30px;
-  margin-right: 20px;
+  align-self: center;
 }
 
 .socials {
   font-size: 24px;
+  letter-spacing: 15px;
   align-self: center;
 }
 
@@ -192,8 +194,10 @@ main {
   color: #e25e0f;
 }
 
+
 iframe {
-  margin-top: 50px;
+  width: 550px;
+  margin: 45px 0;
 }
 
 /* Footer */
@@ -202,7 +206,7 @@ footer {
 }
 
 /* Media query for small screen - MOBILE */
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
   .logo {
     font-size: 10px;
   }
@@ -255,8 +259,16 @@ footer {
   }
 
   .artist-text h2 {
-    font-size: 60px;
+    font-size: 55px;
     margin-bottom: 25px;
+  }
+
+  .artist-text p {
+    font-size: 16px;
+  }
+
+  iframe {
+    width: 284px;
   }
 }
 
