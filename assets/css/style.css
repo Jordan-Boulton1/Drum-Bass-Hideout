@@ -201,11 +201,16 @@ footer {
   background-color: green;
 }
 
-/* Media query for large or landscape phones */
-@media screen and (max-width:576px) {
+/* Media query for small screen - MOBILE */
+@media screen and (max-width:480px) {
+  .logo {
+    font-size: 10px;
+  }
+  
   label {
     display: block;
   }
+
   nav {
     width: 150px;
     position: absolute;
@@ -219,12 +224,15 @@ footer {
     opacity: 0;
     z-index: 99;
   }
+
   nav ul li a, nav label {
     color: #e25e0f;
   }
+
   nav ul {
     flex-direction: column;
   }
+
   nav label {
     text-align: right;
   }
@@ -252,7 +260,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 1180px) {
+/* Media query for large screens - DESKTOPS */
+@media screen and (max-width: 1280px) {
   .about {
     width: 100%;
     height: auto;
