@@ -124,10 +124,12 @@ main {
   background-color: #1d1d25;
   /* Flexbox properties */
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   align-items: center;
 }
-
+.section-reverse {
+  background-color: #e7eef4;
+}
 .artist-content .artist-content-socials {
   margin-top: 20px;
   margin-left: 12px;
@@ -163,6 +165,21 @@ main {
   flex-direction: column;
   text-align: center;
 }
+
+
+
+.about-reverse .artist-info p {
+  color: #1d1d25;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-reverse .artist-info .biography {
+  color: #1d1d25;
+}
+
+
+
  .artist-about div {
   display: inherit;
   flex-direction: inherit;
@@ -185,6 +202,7 @@ main {
 .artist-info p {
   color: #fff;
   font-size: 18px;
+  font-weight: bolder;
   line-height: 24px;
 }
 
@@ -196,6 +214,7 @@ main {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px 30px;
+  font-weight: bolder;
 }
 
 /* Footer */
@@ -268,6 +287,17 @@ footer {
     font-size: 16px;
   }
 
+  .content-reverse {
+    order: 1;
+  }
+
+  .about-reverse {
+    order: 2;
+  }
+
+  .artist-about .spotify-player {
+    margin-bottom: 20px;
+  }
 }
 
 /* Media query for small screen - MOBILE 600px + */
@@ -313,6 +343,7 @@ footer {
   .artist-about .spotify-player {
     align-self: center;
     width: 550px;
+    margin-bottom: 20px;
   }
 
 
@@ -367,5 +398,14 @@ footer {
     min-width: 600px;
     min-height: 600px;
   }
+
+  .content-reverse {
+    order: 2;
+  }
+
+  .about-reverse {
+    order: 1;
+  }
+
 }
 
