@@ -25,6 +25,8 @@ ul {
   list-style-type: none;
 }
 
+
+
 /* Navigation bar */
 header {
   width: 100%;
@@ -72,14 +74,13 @@ main {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
 }
 
 .card {
+
   display: block;
   width: 450px;
-  height: fit-content;
   background-color: #1d1d25;
   border-radius: 7px;
   overflow: hidden;
@@ -205,6 +206,7 @@ main {
 
 /* Footer */
 footer {
+  
   background-color: green;
 }
 
@@ -256,7 +258,7 @@ footer {
   }
 
   .card {
-    max-width: 265px
+    max-width: 275px
   }
 
   .card img {
@@ -322,6 +324,7 @@ footer {
     width: 550px;
   }
 
+
 }
 
 @media screen and (min-width: 980px) {
@@ -329,11 +332,15 @@ footer {
     flex-wrap: nowrap;
   }
 
-  /* .card img {
-    max-height: 295px
-  } */
+  .card {
+    max-width: 275px
+  }
 
- 
+  .card img {
+    height: 275px;
+  }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -341,8 +348,8 @@ footer {
     flex-direction: row;
   }
 
-  /* .card img {
-    max-height: 500px;
-  } */
+  section {
+    height: 100vh;
+  }
 }
 
