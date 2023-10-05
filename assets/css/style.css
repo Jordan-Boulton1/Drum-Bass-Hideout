@@ -69,33 +69,27 @@ main {
   background-color: #e7eef4;
 }
 
+/* Card section */
+
 .card-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   position: relative;
-
 }
 
 .card {
-
-  display: block;
-  width: 450px;
   background-color: #1d1d25;
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
   margin: 20px;
+  width: 300px;
 }
-/* Setting the card img size and making the entire image fit within its container */
+
 .card img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  height: 450px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
 }
 
 /* Adds padding to the information inside of the card */
@@ -224,6 +218,7 @@ footer {
   nav {
     position: absolute;
     background-color: #1d1d25;
+    width: 100px;
     top: 10px;
     right: 10px;
     padding: 10px;
@@ -253,16 +248,7 @@ footer {
 
   /* Card section */
   .card-container {
-    margin: 25px 0;
     flex-wrap: wrap;
-  }
-
-  .card {
-    max-width: 275px
-  }
-
-  .card img {
-    height: 265px;
   }
 
   /* Artist section */
@@ -286,13 +272,18 @@ footer {
 
 /* Media query for small screen - MOBILE 600px + */
 @media screen and (min-width: 600px) {
-  /* Card section */
-
-  .card-container {
-    margin: 25px 0;
-    flex-wrap: wrap;
+  nav ul li a {
+    font-size: 14px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
   }
 
+  /* Card section */
+  .card-container {
+    flex-wrap: wrap;
+  }
 
   /* Artist section */
 
@@ -328,29 +319,44 @@ footer {
 }
 
 @media screen and (min-width: 980px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  .logo h1 {
+    font-size: 32px;
+  }
+
   .card-container {
     flex-wrap: nowrap;
   }
 
   .card {
-    max-width: 275px
+    height: auto;
   }
 
-  .card img {
-    height: 275px;
+  .card-details p {
+    font-size: 14px;
   }
-
-
 }
 
 @media screen and (min-width: 1200px) {
   section {
     height: 100vh;
   }
-  
+
   .about {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .card-container {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .card-details p {
+    font-size: 16px;
   }
 
   .artist-about {
