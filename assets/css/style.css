@@ -301,8 +301,8 @@ footer {
   }
 
   .about .artist-content img {
-    width: 450px;
-    height: 450px;
+    max-width: 450px;
+    max-height: 450px;
     margin-top: 50px;
   }
 
@@ -344,12 +344,22 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-  .about {
-    flex-direction: row;
-  }
-
   section {
     height: 100vh;
+  }
+  
+  .about {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .artist-about {
+    width: 600px;
+  }
+
+  .artist-content-image img {
+    min-width: 600px;
+    min-height: 600px;
   }
 }
 
