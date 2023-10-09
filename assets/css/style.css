@@ -17,15 +17,14 @@ body {
   background-color: #e7eef4;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
 }
-
-
 
 /* Navigation bar */
 header {
@@ -42,7 +41,9 @@ header {
   justify-content: space-between;
 }
 /* Logo, tags and label/buttons color */
-.logo, nav ul li a, label {
+.logo,
+nav ul li a,
+label {
   color: #e25e0f;
 }
 /* Hiding icons on larger screens */
@@ -65,7 +66,6 @@ nav ul li a:hover {
 
 /* Main content */
 main {
-  flex: 1 0 auto;
   background-color: #e7eef4;
 }
 
@@ -176,12 +176,12 @@ main {
   color: #1d1d25;
 }
 
- .artist-about div {
+.artist-about div {
   display: inherit;
   flex-direction: inherit;
   justify-content: space-evenly;
   align-items: center;
- }
+}
 
 .artist-info h2,
 .artist-info p,
@@ -249,79 +249,102 @@ main {
   opacity: 1;
 }
 
-/* Footer */
+/* General footer properties */
 footer {
   background-color: #1d1d25;
   color: #e7eef4;
+  box-sizing: border-box;
+  widows: 100%;
+  text-align: center;
+  padding: 50px 50px 35px 50px;
 }
 
-footer hr {
-  width: 95%;
-  margin: 0 auto;
-}
-
-footer p {
-  font-size: 12px;
-}
-
-.footer-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px;
-}
-
-.ft-left {
-  max-width: 100%;
-  padding: 0 10px;
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-}
-
-.ft-right {
-  max-width: 100%;
-  padding: 0 10px;
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.ft-right a {
-  color: #e25e0f;
-  font-size: 30px;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px 35px;
-}
-
-.footer-bottom p {
-  width: 250px;
-  height: 50px;
+.footer-left,
+.footer-center,
+.footer-right {
+  display: inline-block;
+  vertical-align: middle;
   text-align: center;
 }
 
-.fb-left {
-  width: 50%;
+/* Footer left */
+.footer-left {
+  width: 30%;
 }
 
-.fb-right {
-  width: 50%;
-  margin-top: 60px;
-  text-align: right;
+.footer-left h2 {
+  color: #e25e0f;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0;
+}
+
+.footer-left .footer-slogan {
+  display: inline-block;
+  margin: 20px 0 12px;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.footer-project-info {
+  display: inline-block;
+  margin: 20px 0 12px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Footer center */
+.footer-center {
+  width: 35%;
+}
+
+.footer-center i {
+  background-color: #e25e0f;
+  color: #fff;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px 14px;
+  vertical-align: middle;
+}
+
+.footer-center i.fa-github {
+  font-size: 24px;
+}
+
+.footer-center p {
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+}
+
+/* Footer right */
+.footer-right {
+  width: 30%;
+}
+
+.footer-right h2 {
+  color: #e25e0f;
+}
+
+.footer-disclaimer {
+  display: inline-block;
+  margin: 20px 0 12px;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 /* Media query for small screen (600px and below) */
 @media screen and (max-width: 600px) {
-
   .logo {
     font-size: 10px;
   }
-  
+
   label {
     display: block;
   }
@@ -340,7 +363,8 @@ footer p {
     z-index: 99;
   }
 
-  nav ul li a, nav label {
+  nav ul li a,
+  nav label {
     color: #e25e0f;
   }
 
@@ -395,7 +419,8 @@ footer p {
     flex-wrap: wrap;
   }
 
-  .fb-right, .fb-left {
+  .fb-right,
+  .fb-left {
     width: 100%;
   }
 
@@ -409,12 +434,12 @@ footer p {
   }
 }
 
-/* Media query for small screen - MOBILE 600px + */
+/* Media query for small devices (600px and up) */
 @media screen and (min-width: 600px) {
   nav ul li a {
     font-size: 14px;
   }
-  
+
   .logo h1 {
     font-size: 24px;
   }
@@ -454,17 +479,26 @@ footer p {
     width: 550px;
     margin-bottom: 20px;
   }
-
-
-
-
 }
 
+/* Media query to scale footer to devices 880px and below */
+@media (max-width: 880px) {
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+/* Media query for large devices (980px and up) */
 @media screen and (min-width: 980px) {
   nav ul li a {
     font-size: 16px;
   }
-  
+
   .logo h1 {
     font-size: 32px;
   }
@@ -480,10 +514,9 @@ footer p {
   .card-details p {
     font-size: 14px;
   }
-
-  
 }
 
+/* Media query for extra large devices (1200px and up) */
 @media screen and (min-width: 1200px) {
   section {
     height: 100vh;
@@ -526,6 +559,4 @@ footer p {
     padding: 6px;
     font-size: 16px;
   }
-
 }
-
