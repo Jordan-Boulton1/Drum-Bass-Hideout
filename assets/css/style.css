@@ -40,12 +40,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 /* Logo, tags and label/buttons color */
 .logo,
 nav ul li a,
 label {
   color: #e25e0f;
 }
+
 /* Hiding icons on larger screens */
 label {
   display: none;
@@ -70,7 +72,6 @@ main {
 }
 
 /* Card section */
-
 .card-container {
   display: flex;
   justify-content: center;
@@ -127,18 +128,9 @@ main {
   flex-flow: column;
   align-items: center;
 }
+
 .section-reverse {
   background-color: #e7eef4;
-}
-.artist-content .artist-content-socials {
-  margin-top: 20px;
-  margin-left: 12px;
-  font-size: 24px;
-  letter-spacing: 15px;
-}
-
-.artist-content .artist-content-socials a {
-  color: #e25e0f;
 }
 
 .about .artist-content img {
@@ -156,6 +148,17 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.artist-content .artist-content-socials {
+  margin-top: 20px;
+  margin-left: 12px;
+  font-size: 24px;
+  letter-spacing: 15px;
+}
+
+.artist-content .artist-content-socials a {
+  color: #e25e0f;
 }
 
 .artist-about {
@@ -314,7 +317,6 @@ footer {
 .footer-center i.fa-github {
   font-size: 24px;
 }
-
 .footer-center p {
   display: inline-block;
   color: #fff;
