@@ -117,13 +117,13 @@ main {
 
 /* features section */
 .features {
-  height: 700px;
+  margin-bottom: 5%;
 }
 
 .features h2 {
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
-  margin: 5% 0;
+  padding: 10px 0;
 }
 
 .feat-container {
@@ -138,11 +138,11 @@ main {
 
 .feat-box {
   color: #e25e0f;
-  font-size: 48px;
+  font-size: 24px;
   padding: 15px;
   text-align: center;
   border: 2px solid #e7eef4;
-  flex-grow: 2;
+  flex-grow: 1;
   flex-basis: 200px;
 }
 
@@ -152,6 +152,53 @@ main {
 }
 
 /* Connect section */
+.connect {
+  background-color: #1d1d25;
+}
+
+.connect h2 {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+
+.meetups {
+  background: url("../images/meetups-img.webp") no-repeat center/cover;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.meetups div {
+  color: #e7eef4;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid #e7eef4;
+}
+
+.meetups h3 {
+  color: #e25e0f;
+  margin: 5% 0;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.meetups p {
+  padding: 10px 0;
+}
+
+.meetups a {
+  color: #e25e0f;
+}
+
+.meetups a:hover {
+  color: #e7eef4;
+  border-bottom: 2px solid #e25e0f;
+}
 
 /* <--- Artist Page ---> */
 
@@ -554,10 +601,7 @@ footer {
     font-size: 28px;
   }
 
-  /* features section */
-  .features {
-    height: 400px;
-  }
+  /* Feature section */
 
   /* Card section */
   .card-container {
@@ -635,6 +679,10 @@ footer {
   .card-details p {
     font-size: 14px;
   }
+
+  .features h2 {
+    margin: 2% 0;
+  }
 }
 
 /* Media query for extra large devices (1200px and up) */
@@ -679,5 +727,37 @@ footer {
     height: 2rem;
     padding: 6px;
     font-size: 16px;
+  }
+
+  .features {
+    height: fit-content;
+  }
+
+  .feat-box {
+    flex-basis: 400px;
+  }
+
+  .features h2 {
+    font-size: 64px;
+  }
+
+  .feat-box {
+    font-size: 32px;
+  }
+
+  .connect {
+    height: fit-content;
+  }
+
+  .connect > h2 {
+    font-size: 48px;
+  }
+
+  .meetups div h3 {
+    font-size: 22px;
+  }
+
+  .meetups div p {
+    font-size: 18px;
   }
 }
