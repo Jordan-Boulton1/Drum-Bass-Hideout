@@ -77,6 +77,8 @@ main {
   background-color: #e7eef4;
 }
 
+/* <--- Landing page ---> */
+
 /* Hero section */
 .hero {
   height: 600px;
@@ -148,6 +150,10 @@ main {
   font-size: 24px;
   margin-top: 20px;
 }
+
+/* Connect section */
+
+/* <--- Artist Page ---> */
 
 /* Card section */
 .card-container {
