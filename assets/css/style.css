@@ -68,7 +68,44 @@ nav ul li a:hover {
 
 /* Main content */
 main {
+  flex: 1 0 auto;
   background-color: #e7eef4;
+}
+
+/* Hero section */
+.hero {
+  height: 600px;
+  display: flex;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-image.webp") no-repeat fixed center/cover;
+  width: 100%;
+  height: 600px;
+  /* Positioning image relative so that the hero text will fit within the image. */
+  position: relative;
+}
+
+.hero-text {
+  background-color: rgba(226, 94, 15, 0.7);
+  color: #e7eef4;
+  font-size: 120%;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 80%;
+  align-self: center;
+  padding: 20px 10px;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+}
+
+.hero-text h3 {
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 /* Card section */
@@ -447,13 +484,30 @@ footer {
     font-size: 24px;
   }
 
+  .cover-text > h2,
+  .cover-text > h3 {
+    font-size: 100%;
+  }
+
+  /* Hero section */
+  .hero-text {
+    max-width: 60%;
+  }
+
+  .hero-text h2 {
+    font-size: 42px;
+  }
+
+  .hero-text h3 {
+    font-size: 28px;
+  }
+
   /* Card section */
   .card-container {
     flex-wrap: wrap;
   }
 
   /* Artist section */
-
   .artist-content .artist-content-socials {
     margin-bottom: 20px;
   }
@@ -498,6 +552,7 @@ footer {
 
 /* Media query for large devices (980px and up) */
 @media screen and (min-width: 980px) {
+  /* Navbar */
   nav ul li a {
     font-size: 16px;
   }
@@ -506,6 +561,12 @@ footer {
     font-size: 32px;
   }
 
+  /* Hero section */
+  .hero-text {
+    width: 400px;
+  }
+
+  /* Card section */
   .card-container {
     flex-wrap: nowrap;
   }
