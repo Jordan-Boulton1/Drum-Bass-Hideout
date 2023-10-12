@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Meta tags for the browser -->
-  <meta
-    name="description"
-    content="Drum & Bass hideout, the home to some of the UK's best Drum & Bass artists"
-  />
-  <meta
-    name="keywords"
-    content="drum, bass, hideout, wilkinson, dimension, sub, focus, uk, dj"
-  />
-  <!-- Title -->
-  <title>Drum&Bass Hideout</title>
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta tags for the browser -->
+    <meta
+      name="description"
+      content="Drum & Bass hideout, the home to some of the UK's best Drum & Bass artists"
+    />
+    <meta
+      name="keywords"
+      content="drum, bass, hideout, wilkinson, dimension, sub, focus, uk, dj"
+    />
+    <!-- Title -->
+    <title>Drum&Bass Hideout</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
   <body>
     <!-- Navigation bar -->
     <header>
@@ -39,7 +44,55 @@
       </nav>
     </header>
     <!-- Main content -->
-    <main></main>
+    <main>
+      <section class="signup">
+        <div class="signup-box">
+          <h2>Join the family!</h2>
+          <form
+            class="signup-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <label class="form-text" for="username">Username:</label>
+            <input
+              type="text"
+              placeholder="Enter your Username"
+              name="username"
+              required
+            />
+
+            <label class="form-text" for="email">Email:</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              name="email"
+              required
+            />
+
+            <label class="form-text" for="password">Password:</label>
+            <input
+              type="password"
+              placeholder="Enter your Password"
+              name="password"
+              required
+            />
+            <button type="submit" class="signup-btn">Sign Up</button>
+          </form>
+          <div class="remember">
+            <label>
+              <input type="checkbox" name="remember" checked />
+              Remember me
+            </label>
+          </div>
+          <div class="newsletter">
+            <label>
+              <input type="checkbox" name="newsletter" checked />
+              Receive our newsletter!
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
       <div class="footer-left">
