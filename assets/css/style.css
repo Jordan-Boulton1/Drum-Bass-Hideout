@@ -54,7 +54,7 @@ label {
 }
 
 /* Hiding icons on larger screens */
-label {
+header label {
   display: none;
 }
 
@@ -383,6 +383,75 @@ main {
   opacity: 1;
 }
 
+/* <--- Sign Up page ---> */
+
+.signup {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/signup-background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+.signup-box {
+  width: 280px;
+  padding: 32px 16px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.signup-box > h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: #cacaca;
+}
+
+.form-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.remember {
+  margin-top: 10px;
+}
+
+.newsletter {
+  margin-top: 10px;
+}
+
+.signup-btn {
+  width: 90%;
+  background-color: #e25e0f;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #ff5e00;
+}
+
+.signup-form input:focus {
+  border: 2px solid #e25e0f;
+}
+
 /* General footer properties */
 footer {
   background-color: #1d1d25;
@@ -475,11 +544,12 @@ footer {
 
 /* Media query for small screen (600px and below) */
 @media screen and (max-width: 600px) {
+  /* Navbar */
   .logo h1 {
     font-size: 24px;
   }
 
-  label {
+  header label {
     display: block;
   }
 
@@ -554,6 +624,7 @@ footer {
     margin-bottom: 20px;
   }
 
+  /* Footer */
   .footer-bottom {
     flex-wrap: wrap;
   }
@@ -568,6 +639,7 @@ footer {
     padding-top: 10px;
   }
 
+  /* Hide the scroll button on smaller devices */
   .scroll {
     visibility: hidden;
   }
@@ -575,17 +647,13 @@ footer {
 
 /* Media query for small devices (600px and up) */
 @media screen and (min-width: 600px) {
+  /* Navbar */
   nav ul li a {
     font-size: 14px;
   }
 
   .logo h1 {
     font-size: 32px;
-  }
-
-  .cover-text > h2,
-  .cover-text > h3 {
-    font-size: 100%;
   }
 
   /* Hero section */
@@ -600,8 +668,6 @@ footer {
   .hero-text h3 {
     font-size: 28px;
   }
-
-  /* Feature section */
 
   /* Card section */
   .card-container {
@@ -636,6 +702,10 @@ footer {
     align-self: center;
     width: 550px;
     margin-bottom: 20px;
+  }
+
+  .signup-box {
+    width: 480px;
   }
 }
 
@@ -680,6 +750,7 @@ footer {
     font-size: 14px;
   }
 
+  /* Feature section */
   .features h2 {
     margin: 2% 0;
   }
@@ -687,10 +758,56 @@ footer {
 
 /* Media query for extra large devices (1200px and up) */
 @media screen and (min-width: 1200px) {
+  /* General property */
   section {
     height: 100vh;
   }
 
+  /* Up button */
+  .scroll {
+    width: 2rem;
+    height: 2rem;
+    padding: 6px;
+    font-size: 16px;
+  }
+
+  /* <--- Landing Page ---> */
+  /* Feature section */
+  .features {
+    height: fit-content;
+  }
+
+  .feat-box {
+    flex-basis: 400px;
+  }
+
+  .features h2 {
+    font-size: 64px;
+  }
+
+  .feat-box {
+    font-size: 32px;
+  }
+
+  /* Meet up section */
+  .connect {
+    height: fit-content;
+  }
+
+  .connect > h2 {
+    font-size: 48px;
+  }
+
+  .meetups div h3 {
+    font-size: 22px;
+  }
+
+  .meetups div p {
+    font-size: 18px;
+  }
+
+  /* <--- Artist Page ---> */
+  /* Artist info section */
   .about {
     flex-direction: row;
     justify-content: space-evenly;
@@ -722,42 +839,7 @@ footer {
     order: 1;
   }
 
-  .scroll {
-    width: 2rem;
-    height: 2rem;
-    padding: 6px;
-    font-size: 16px;
-  }
-
-  .features {
-    height: fit-content;
-  }
-
-  .feat-box {
-    flex-basis: 400px;
-  }
-
-  .features h2 {
-    font-size: 64px;
-  }
-
-  .feat-box {
-    font-size: 32px;
-  }
-
-  .connect {
-    height: fit-content;
-  }
-
-  .connect > h2 {
-    font-size: 48px;
-  }
-
-  .meetups div h3 {
-    font-size: 22px;
-  }
-
-  .meetups div p {
-    font-size: 18px;
+  .signup {
+    padding: 200px 0;
   }
 }
