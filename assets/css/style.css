@@ -68,6 +68,7 @@ header label {
 nav ul {
   display: flex;
   gap: 2rem;
+  font-weight: 600;
 }
 
 nav ul li a:hover {
@@ -304,6 +305,10 @@ main {
   color: #fff;
 }
 
+.artist-content .artist-content-socials a:hover {
+  color: #ff8c00;
+}
+
 .artist-content .reverse-colors a {
   color: #1d1d25;
 }
@@ -451,14 +456,17 @@ main {
 .form-text {
   font-size: 18px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
-.remember {
-  margin-top: 10px;
-}
-
+.remember,
 .newsletter {
   margin-top: 10px;
+}
+
+.remember label,
+.newsletter label {
+  color: #fff;
 }
 
 .signup-btn {
@@ -544,6 +552,14 @@ footer {
 
 .footer-center i.fa-github {
   font-size: 24px;
+}
+
+.footer-center i.fa-github:hover {
+  font-size: 40px;
+}
+
+.footer-center i.fa-github a {
+  padding-right: 1px;
 }
 
 .footer-center p {
