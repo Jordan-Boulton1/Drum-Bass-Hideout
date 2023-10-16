@@ -31,6 +31,13 @@ h2 {
   font-family: "Oswald", sans-serif;
 }
 
+iframe {
+  width: 100%;
+  height: 352px;
+  border-radius: 12px;
+  border: none;
+}
+
 /* Navigation bar */
 header {
   width: 100%;
