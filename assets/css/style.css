@@ -230,7 +230,7 @@ main {
 }
 
 .card-details h2 {
-  font-size: 32px;
+  font-size: 28px;
   margin-bottom: 8px;
   letter-spacing: 1.5px;
   color: #fff;
@@ -750,12 +750,8 @@ footer {
     flex-wrap: nowrap;
   }
 
-  .card {
-    height: auto;
-  }
-
   .card-details p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   /* Feature section */
