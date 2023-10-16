@@ -672,10 +672,6 @@ footer {
   }
 
   /* Hero section */
-  .hero-image {
-    background-attachment: initial;
-  }
-
   .hero-text {
     max-width: 60%;
   }
@@ -730,6 +726,10 @@ footer {
 
 /* Media query to scale footer to devices 880px and below */
 @media (max-width: 880px) {
+  .hero-image {
+    background-size: auto 100%;
+  }
+
   .footer-left,
   .footer-center,
   .footer-right {
