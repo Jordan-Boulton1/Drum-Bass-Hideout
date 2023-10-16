@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@500&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -50,7 +50,7 @@ header {
 .logo,
 nav ul li a,
 label {
-  color: #e25e0f;
+  color: #ff8c00;
 }
 
 /* Hiding icons on larger screens */
@@ -64,7 +64,7 @@ nav ul {
 }
 
 nav ul li a:hover {
-  border-bottom: 1px solid #e25e0f;
+  border-bottom: 1px solid #ff8c00;
 }
 
 #nav-menu {
@@ -137,7 +137,7 @@ main {
 }
 
 .feat-box {
-  color: #e25e0f;
+  color: #ff8c00;
   font-size: 24px;
   padding: 15px;
   text-align: center;
@@ -181,7 +181,7 @@ main {
 }
 
 .meetups h3 {
-  color: #e25e0f;
+  color: #ff8c00;
   margin: 5% 0;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1.5px;
@@ -192,12 +192,12 @@ main {
 }
 
 .meetups a {
-  color: #e25e0f;
+  color: #ff8c00;
 }
 
 .meetups a:hover {
   color: #e7eef4;
-  border-bottom: 2px solid #e25e0f;
+  border-bottom: 2px solid #ff8c00;
 }
 
 /* <--- Artist Page ---> */
@@ -216,12 +216,12 @@ main {
   overflow: hidden;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
   margin: 20px;
-  width: 300px;
+  width: 280px;
 }
 
-.card img {
-  width: 100%;
-  height: auto;
+.avatar {
+  width: 280px;
+  height: 280px;
 }
 
 /* Adds padding to the information inside of the card */
@@ -229,9 +229,10 @@ main {
   padding: 16px;
 }
 
-.card-details h3 {
-  font-size: 28px;
+.card-details h2 {
+  font-size: 32px;
   margin-bottom: 8px;
+  letter-spacing: 1.5px;
   color: #fff;
 }
 
@@ -244,11 +245,12 @@ main {
 .card-details .card-btn {
   display: inline-block;
   padding: 10px 16px;
-  background-color: #e25e0f;
+  background-color: #ff8c00;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
-  color: #fff;
+  color: #000;
+  font-weight: 600;
 }
 
 /* Artist section */
@@ -289,7 +291,7 @@ main {
 }
 
 .artist-content .artist-content-socials a {
-  color: #e25e0f;
+  color: #ff8c00;
 }
 
 .artist-about {
@@ -324,9 +326,16 @@ main {
 }
 
 .artist-info h2 {
-  color: #e25e0f;
   font-size: 85px;
   text-transform: capitalize;
+}
+
+.info-heading {
+  color: #ff8c00;
+}
+
+.info-heading-reverse {
+  color: #1d1d25;
 }
 
 .artist-info p {
@@ -339,12 +348,12 @@ main {
 .artist-about .biography {
   max-width: 150px;
   max-height: 50px;
-  background-color: #e25e0f;
-  color: #fff;
+  background-color: #ff8c00;
+  color: #1d1d25;
   font-size: 18px;
   border-radius: 4px;
   padding: 10px 30px;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 /* Up button */
@@ -363,7 +372,7 @@ main {
   height: 3rem;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: #e25e0f;
+  background-color: #ff8c00;
   color: #e7eef4;
   text-align: center;
   font-size: 20px;
@@ -434,7 +443,7 @@ main {
 
 .signup-btn {
   width: 90%;
-  background-color: #e25e0f;
+  background-color: #ff8c00;
   font-size: 20px;
   margin-top: 15px;
   padding: 10px 0;
@@ -449,7 +458,7 @@ main {
 }
 
 .signup-form input:focus {
-  border: 2px solid #e25e0f;
+  border: 2px solid #ff8c00;
 }
 
 /* General footer properties */
@@ -457,7 +466,6 @@ footer {
   background-color: #1d1d25;
   color: #e7eef4;
   box-sizing: border-box;
-  widows: 100%;
   text-align: center;
   padding: 50px 50px 35px 50px;
 }
@@ -476,7 +484,7 @@ footer {
 }
 
 .footer-left h2 {
-  color: #e25e0f;
+  color: #ff8c00;
   font-weight: 700;
   font-size: 32px;
   margin: 0;
@@ -502,7 +510,7 @@ footer {
 }
 
 .footer-center i {
-  background-color: #e25e0f;
+  background-color: #ff8c00;
   color: #fff;
   font-size: 20px;
   width: 38px;
@@ -532,7 +540,7 @@ footer {
 }
 
 .footer-right h2 {
-  color: #e25e0f;
+  color: #ff8c00;
 }
 
 .footer-disclaimer {
@@ -569,7 +577,7 @@ footer {
 
   nav ul li a,
   nav label {
-    color: #e25e0f;
+    color: #ff8c00;
   }
 
   nav ul {
