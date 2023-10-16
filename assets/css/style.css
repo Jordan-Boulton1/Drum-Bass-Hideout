@@ -304,6 +304,10 @@ main {
   color: #fff;
 }
 
+.artist-content .reverse-colors a {
+  color: #1d1d25;
+}
+
 .artist-about {
   max-width: 100%;
   padding: 0 10px;
@@ -342,10 +346,12 @@ main {
 
 .info-heading {
   color: #fff;
+  border-bottom: 2px solid #ff8c00;
 }
 
 .info-heading-reverse {
   color: #1d1d25;
+  border-bottom: 2px solid #ff8c00;
 }
 
 .artist-info p {
@@ -364,6 +370,10 @@ main {
   border-radius: 4px;
   padding: 10px 30px;
   font-weight: 600;
+}
+
+.reverse-colors {
+  color: #1d1d25;
 }
 
 /* Up button */
