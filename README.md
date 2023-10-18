@@ -2,7 +2,7 @@
 
 Drum&Bass Hideout is a webpage that gives people from all across the world, an insight into the UK Drum & Bass scene. Users of this page will be able to experience some of the best UK artists through our Artist section - where they will be able to learn a little bit of the artists background also. In addition to that users will also be able to find our daily live streams and weekly podcasts.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/responsive-mockup.PNG)
 
 ## Features
 
