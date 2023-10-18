@@ -1,12 +1,13 @@
 # Drum&Bass Hideout
 
-Drum&Bass Hideout is a webpage that gives people from all across the world, an insight into the UK Drum & Bass scene. Users of this page will be able to experience some of the best UK artists through our Artist section - where they will be able to learn a little bit of the artists background also. In addition to that users will also be able to find our daily live streams and weekly podcasts.
+Drum&Bass Hideout is a website that strives to give people who are passionate about the UK Drum and Bass scene a chance to experience the best artists by reading into their background and listening to some of their top tracks through our interactive Spotify plugin.
+Drum&Bass Hideout also wants to give a chance to the non-stop ravers to tune into our 24/7 radio to keep the party mood throughout the week. For those who are more of the weekend ravers we have our live sessions every Saturday.
 
 ![Responsive Mockup](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/responsive-mockup.PNG)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+There are several features on the website that help our targeted audience navigate through the pages to enable them to experience what Drum&Bass Hideout has to offer.
 
 ### Existing Features
 
@@ -15,7 +16,7 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-navbar.PNG)
 
 - **The landing page image**
 
