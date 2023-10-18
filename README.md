@@ -37,10 +37,11 @@ There are several features on the website that help our targeted audience naviga
 
 - **Meetup Times section**
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+  - This section contains 5 tiles which represent different ways that the user can tune into the Drum&Bass Hideout content with direct links.
+  - The user can also clearly see when and where this content is available.
+  - This section is also used to compliment the section above by allowing the user to interact with some of the content that is offered.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Experience The Drum&Bass Hideout section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-experience.PNG)
 
 - **The Footer**
 
