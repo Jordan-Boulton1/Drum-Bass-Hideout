@@ -118,7 +118,9 @@ The bug was happening because of the CSS background shorthand property which res
 
 - HTML
 
-  - No errors were returned when passing through the official Home page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2Fpp1-ci%2Findex.html)
+  - No errors were returned when passing through the official validator.
+
+  Home page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2Fpp1-ci%2Findex.html)
 
   Artists page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2Fpp1-ci%2Fartists.html)
 
