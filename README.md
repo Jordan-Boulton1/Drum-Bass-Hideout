@@ -24,11 +24,10 @@ There are several features on the website that help our targeted audience naviga
 ![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-mobile-navbar-opened.PNG)
 
 - **The landing page image**
+  - The landing page image contains a paragraph with overlay to clearly state what the website is about as soon as the user arrives.
+  - The landing hero image clearly conveys to the users that the context of the website is about music.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-hero.PNG)
 
 - **Club Ethos Section**
 
