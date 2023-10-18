@@ -54,6 +54,12 @@ There are several features on the website that help our targeted audience naviga
 
 ![Footer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-footer.PNG)
 
+- **Up Button**
+
+  - This button is featured on the Home and Artist page which allows users when scrolling down through the page to easily navigate all the way to the top without having to scroll all the way back up.
+
+![Up Button](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-up-btn.png)
+
 - **Gallery**
 
   - The gallery will provide the user with supporting images to see what the meet ups look like.
