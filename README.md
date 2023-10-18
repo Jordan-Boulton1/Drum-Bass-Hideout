@@ -72,7 +72,20 @@ There are several features on the website that help our targeted audience naviga
 
 ![Gallery](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-cards.PNG)
 
-- **The Sign Up Page**
+- **Artist content section**
+
+  - This section contains an image and social links of the respective artists. Each social link will redirect the user to the artists social media page in a different tab.
+  - There is also a heading containing the stage name of the artist and a paragraph with more detailed information about the artists origin and career.
+  - The section also contains a "Biography" button that will redirect the user to a new page on a new tab where the user can read more in-depth information about the artist.
+  - The user also has the ability to experience some of the top tracks of the respective artist through the interactive Spotify player.
+  - As the user scrolls further down the page they can see that a similar section is followed, however the content is flipped. This design was chosen to make the page feel more interactive.
+  - Each section of the artists gives value to the user to experience the artist both visually and audibly.
+
+![Artist Content Section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-section.PNG)
+
+![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-section-reverse.PNG)
+
+- **Artist content section**
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
