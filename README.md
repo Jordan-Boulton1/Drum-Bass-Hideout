@@ -13,10 +13,15 @@ There are several features on the website that help our targeted audience naviga
 
 - **Navigation Bar**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - The navigation bar is fully responsive and featured on all three pages. It contains a logo, and links to the three pages that are offered - Home, Artist, Sign up.
+  - For mobile users the navigation bar shrinks in size and features a burger icon that contains the links to the three pages that are offered.
+  - The navigation bar will allow users to easily navigate across the three pages that we offer with support on all devices. This prevents the user from having to use the "back" button.
 
 ![Nav Bar](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-navbar.PNG)
+
+![Nav Bar Mobile Closed](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-mobile-navbar-closed.PNG)
+
+![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-mobile-navbar-opened.PNG)
 
 - **The landing page image**
 
