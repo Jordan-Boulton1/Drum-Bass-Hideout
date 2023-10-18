@@ -60,12 +60,17 @@ There are several features on the website that help our targeted audience naviga
 
 ![Up Button](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-up-btn.png)
 
-- **Gallery**
+- **Artist Page**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - The artist page contains 5 sections - Artist cards section and a section featuring the artists.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- **Artist cards section**
+
+  - This section contains 4 tiles in the form of a card for each artist that is featured on the Drum&Bass Hideout website.
+  - Each card contains an image of the specific artist, a heading with the name of the artist, a paragraph with a eye-catching introduction of the artist and a "Read More" button which directs the user to the specific section on the page about the artist.
+  - This brings value to the users to quickly identify which artist they want to explore more about without having to scroll further down the to find the specific artist section they are looking for.
+
+![Gallery](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-cards.PNG)
 
 - **The Sign Up Page**
 
