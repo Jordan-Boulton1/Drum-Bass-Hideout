@@ -29,12 +29,11 @@ There are several features on the website that help our targeted audience naviga
 
 ![Landing Page](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-hero.PNG)
 
-- **Club Ethos Section**
+- **What we offer Section**
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+  - This section will allow users to instantly find out what the Drum&Bass Hideout has to offer, which will encourage the users to keep exploring the content of the website.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![What we offer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-offer.PNG)
 
 - **Meetup Times section**
 
