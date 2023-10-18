@@ -45,10 +45,14 @@ There are several features on the website that help our targeted audience naviga
 
 - **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is featured on all three pages and is fully responsive.
+  - The footer is segmented into three parts:
+    - The first segment contains the logo and a slogan as well as information about who the author of the website is about and why it was created.
+    - The second segment contains 4 icons, one which contains a link. The first three icons give information about the Location, Email and Phone Number of Drum&Bass Hideout. The last icon is a link to the Github repository of the author.
+    - The third segment is a disclaimer that notifies the user of the owner ship of the media content used on the website.
+  - The footer is valuable to the users because it gives them information about who the author of the page is and how to get in touch.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-footer.PNG)
 
 - **Gallery**
 
