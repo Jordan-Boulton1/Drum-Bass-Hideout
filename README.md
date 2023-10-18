@@ -16,6 +16,7 @@ There are several features on the website that help our targeted audience naviga
   - The navigation bar is fully responsive and featured on all three pages. It contains a logo, and links to the three pages that are offered - Home, Artist, Sign up.
   - For mobile users the navigation bar shrinks in size and features a burger icon that contains the links to the three pages that are offered.
   - The navigation bar will allow users to easily navigate across the three pages that we offer with support on all devices. This prevents the user from having to use the "back" button.
+  - While scrolling through the page the user will notice that the navigation bar is sticky which allows them to have easy access to the rest of the pages offered.
 
 ![Nav Bar](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-navbar.PNG)
 
@@ -85,11 +86,12 @@ There are several features on the website that help our targeted audience naviga
 
 ![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-section-reverse.PNG)
 
-- **Artist content section**
+- **Sign up**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - The Sign up page allows the user to sign up to stay involved with what the Drum&Bass Hideout has to offer.
+  - The Sign up form has a validator that encourages users to use a valid email when signing up.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-signup.PNG)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
