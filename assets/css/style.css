@@ -493,6 +493,29 @@ main {
   border: 2px solid #ff8c00;
 }
 
+/* Signup validator properties*/
+.validator {
+  height: 800px;
+  display: flex;
+}
+
+.validator-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/signup-validator-img.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.validator-text {
+  color: #e7eef4;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 150px;
+}
+
 /* General footer properties */
 footer {
   background-color: #1d1d25;
@@ -691,6 +714,13 @@ footer {
   .scroll {
     visibility: hidden;
   }
+
+    /* Sign up validator */
+    .validator-text{
+      font-size: 200%;
+      line-height: 75px;
+      margin-top: 150px;
+    }
 }
 
 /* Media query for small devices (600px and up) */
@@ -752,6 +782,7 @@ footer {
     margin-bottom: 20px;
   }
 
+  /*Sign up section */
   .signup-box {
     width: 480px;
   }
