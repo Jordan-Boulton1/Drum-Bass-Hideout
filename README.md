@@ -90,12 +90,11 @@ There are several features on the website that help our targeted audience naviga
 
   - The Sign up page allows the user to sign up to stay involved with what the Drum&Bass Hideout has to offer.
   - The Sign up form has a validator that encourages users to use a valid email when signing up.
+  - The Sign up page redirects you to a thank you page after submitting the form.
 
 ![Sign Up](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-signup.PNG)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Sign Up Redirect](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-signup-redirect.png)
 
 ### Features Left to Implement
 
@@ -193,3 +192,4 @@ The live link can be found here - https://jordan-boulton1.github.io/pp1-ci/
 ### Sign up
 
 - The image used for the background of the sign up page was taken from [Pexels](https://www.pexels.com/photo/selective-focus-photography-of-turned-on-mixing-console-2209315/)
+- The image used for the sign up redirect was taken from [Unsplash](https://unsplash.com/photos/silhouette-photo-of-man-jumped-off-on-top-of-people-inside-party-hall-y71EsQ-U3No)
