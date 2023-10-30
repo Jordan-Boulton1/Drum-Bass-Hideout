@@ -29,6 +29,55 @@ I used [huemint.com](https://huemint.com/website-1/#palette=e7eef4-1d1d25-ff8c00
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the icons in the "What we offer" section, the headings and links in the "Experience The Drum&Bass Hideout" section, the icons in the footer and the social media icons found under the artist image on the "Artists" page.
 
+## Wireframes
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Mobile Wireframes
+
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+Home
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-home-page.png)
+
+Artist
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-artist-page.png)
+
+Sign up
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-signup-page.png)
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+
+Home
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-home-page.png)
+
+Artist
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-artist-page.png)
+
+Sign up
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-signup-page.png)
+</details>
+
+### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+Home
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-home-page.png)
+
+Artist
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-artist-page.png)
+
+Sign up
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-signup-page.png)
+</details>
+
 ## Features
 
 There are several features on the website that help our targeted audience navigate through the pages to enable them to experience what Drum&Bass Hideout has to offer.
