@@ -11,7 +11,7 @@ When creating the website I went for a simple and sleek look where everything fl
 
 ### Colour Scheme
 
-When picking the colours for my website I went for a "underground" style consisting of a dark slate blue with a light orange to compliment.
+When picking the colours for my website I went for an "underground" style consisting of a dark slate blue with a light orange to compliment.
 
 - `#1d1d25` used primarily for the background colour for features throughout the page such as navbar, footer, cards on the artist page and the alternating background colour on the artist section as well as the colour for the text on the light grey background.
 - `#ff8c00` used for primary highlights throughout the page.
