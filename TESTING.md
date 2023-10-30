@@ -14,3 +14,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Artists | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Fartists.html) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/artists-validator.png) | Pass: No Errors |
 | Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Fsignup.html) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/signup-validator.png) | Pass: No Errors |
 | Sign up redirect | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Fsignup-validator.html%3Fusername%3DUsername%26email%3Demail%2540email.com%26password%3Dpassword) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/signup-redirect-validator.png) | Pass: No Errors |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/css-validator.png) | Pass: No Errors |
