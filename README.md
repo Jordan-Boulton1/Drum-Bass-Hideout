@@ -1,9 +1,33 @@
-# Drum&Bass Hideout
+# [DRUM BASS HIDEOUT](https://jordan-boulton1.github.io/Drum-Bass-Hideout)
 
-Drum&Bass Hideout is a website that strives to give people who are passionate about the UK Drum and Bass scene a chance to experience the best artists by reading into their background and listening to some of their top tracks through our interactive Spotify plugin.
+Drum&Bass Hideout is a website that strives to give people who are passionate about the UK Drum and Bass scene a chance to experience the best artists by reading into their background and listening to some of their top tracks through our interactive Spotify plugin.  
 Drum&Bass Hideout also wants to give a chance to the non-stop ravers to tune into our 24/7 radio to keep the party mood throughout the week. For those who are more of the weekend ravers we have our live sessions every Saturday.
 
 ![Responsive Mockup](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/responsive-mockup.png)
+
+## UX
+
+When creating the website I went for a simple and sleek look where everything flowed together.
+
+### Colour Scheme
+
+When picking the colours for my website I went for a "underground" style consisting of a dark slate blue with a light orange to compliment.
+
+- `#1d1d25` used primarily for the background colour for features throughout the page such as navbar, footer, cards on the artist page and the alternating background colour on the artist section as well as the colour for the text on the light grey background.
+- `#ff8c00` used for primary highlights throughout the page.
+- `#e7eef4` used as the alternating secondary background colour throughout the page as well as the colour for the text on the dark slate backgrounds.
+
+I used [huemint.com](https://huemint.com/website-1/#palette=e7eef4-1d1d25-ff8c00) to generate my colour palette.
+
+![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/huemint.png)
+
+### Typography
+
+- [Oswald](https://fonts.google.com/specimen/Oswald?query=oswald) was used for the primary headers and titles.
+
+- [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat) was used for all other secondary text.
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the icons in the "What we offer" section, the headings and links in the "Experience The Drum&Bass Hideout" section, the icons in the footer and the social media icons found under the artist image on the "Artists" page.
 
 ## Features
 
