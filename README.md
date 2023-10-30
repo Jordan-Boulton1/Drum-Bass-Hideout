@@ -169,9 +169,10 @@ There are several features on the website that help our targeted audience naviga
 
 ![Sign Up Redirect](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-signup-redirect.png)
 
-### Features Left to Implement
+### Future Features
 
-- Another feature I would have liked to implement would have been a merchandise shop to allow users to buy products of their beloved artists.
+- Merchandise Shop
+    - Another feature I would have liked to implement would have been a merchandise shop to allow users to buy products of their beloved artists.
 
 ## Testing
 
