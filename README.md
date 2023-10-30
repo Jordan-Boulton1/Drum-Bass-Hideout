@@ -3,7 +3,7 @@
 Drum&Bass Hideout is a website that strives to give people who are passionate about the UK Drum and Bass scene a chance to experience the best artists by reading into their background and listening to some of their top tracks through our interactive Spotify plugin.
 Drum&Bass Hideout also wants to give a chance to the non-stop ravers to tune into our 24/7 radio to keep the party mood throughout the week. For those who are more of the weekend ravers we have our live sessions every Saturday.
 
-![Responsive Mockup](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/responsive-mockup.PNG)
+![Responsive Mockup](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/responsive-mockup.png)
 
 ## Features
 
@@ -18,23 +18,23 @@ There are several features on the website that help our targeted audience naviga
   - The navigation bar will allow users to easily navigate across the three pages that we offer with support on all devices. This prevents the user from having to use the "back" button.
   - While scrolling through the page the user will notice that the navigation bar is sticky which allows them to have easy access to the rest of the pages offered.
 
-![Nav Bar](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-navbar.PNG)
+![Nav Bar](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-navbar.png)
 
-![Nav Bar Mobile Closed](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-mobile-navbar-closed.PNG)
+![Nav Bar Mobile Closed](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-mobile-navbar-closed.png)
 
-![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-mobile-navbar-opened.PNG)
+![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-mobile-navbar-opened.png)
 
 - **The landing page image**
   - The landing page image contains a paragraph with overlay to clearly state what the website is about as soon as the user arrives.
   - The landing hero image clearly conveys to the users that the context of the website is about music.
 
-![Landing Page](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-hero.PNG)
+![Landing Page](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-landing-hero.png)
 
 - **What we offer Section**
 
   - This section will allow users to instantly find out what the Drum&Bass Hideout has to offer, which will encourage the users to keep exploring the content of the website.
 
-![What we offer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-offer.PNG)
+![What we offer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-landing-offer.png)
 
 - **Meetup Times section**
 
@@ -42,7 +42,7 @@ There are several features on the website that help our targeted audience naviga
   - The user can also clearly see when and where this content is available.
   - This section is also used to compliment the section above by allowing the user to interact with some of the content that is offered.
 
-![Experience The Drum&Bass Hideout section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-landing-experience.PNG)
+![Experience The Drum&Bass Hideout section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-landing-experience.png)
 
 - **The Footer**
 
@@ -53,13 +53,13 @@ There are several features on the website that help our targeted audience naviga
     - The third segment is a disclaimer that notifies the user of the owner ship of the media content used on the website.
   - The footer is valuable to the users because it gives them information about who the author of the page is and how to get in touch.
 
-![Footer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-footer.PNG)
+![Footer](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-footer.png)
 
 - **Up Button**
 
   - This button is featured on the Home and Artist page which allows users when scrolling down through the page to easily navigate all the way to the top without having to scroll all the way back up.
 
-![Up Button](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-up-btn.png)
+![Up Button](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-up-btn.png)
 
 - **Artist Page**
 
@@ -71,7 +71,7 @@ There are several features on the website that help our targeted audience naviga
   - Each card contains an image of the specific artist, a heading with the name of the artist, a paragraph with a eye-catching introduction of the artist and a "Read More" button which directs the user to the specific section on the page about the artist.
   - This brings value to the users to quickly identify which artist they want to explore more about without having to scroll further down the to find the specific artist section they are looking for.
 
-![Gallery](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-cards.PNG)
+![Gallery](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-artist-cards.png)
 
 - **Artist content section**
 
@@ -82,9 +82,9 @@ There are several features on the website that help our targeted audience naviga
   - As the user scrolls further down the page they can see that a similar section is followed, however the content is flipped. This design was chosen to make the page feel more interactive.
   - Each section of the artists gives value to the user to experience the artist both visually and audibly.
 
-![Artist Content Section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-section.PNG)
+![Artist Content Section](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-artist-section.png)
 
-![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-artist-section-reverse.PNG)
+![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-artist-section-reverse.png)
 
 - **Sign up**
 
@@ -92,9 +92,9 @@ There are several features on the website that help our targeted audience naviga
   - The Sign up form has a validator that encourages users to use a valid email when signing up.
   - The Sign up page redirects you to a thank you page after submitting the form.
 
-![Sign Up](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-signup.PNG)
+![Sign Up](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-signup.png)
 
-![Sign Up Redirect](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hideout-signup-redirect.png)
+![Sign Up Redirect](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hideout-signup-redirect.png)
 
 ### Features Left to Implement
 
@@ -107,11 +107,11 @@ The form of testing I have done to ensure that the webpage behaves correctly was
 In addition to that when I deployed the final changes on the website I performed Usability testing by asking friends and family if the content of the website is clear and if the page is easy to navigate.
 All of the users came back with feedback that the page was clear and easy to use, however, users that were on iPhone devices noticed that the landing page hero image was not visible.
 
-![iPhone Bug](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hero-image-bug.jpg)
+![iPhone Bug](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hero-image-bug.jpg)
 
 The bug was happening because of the CSS background shorthand property which resulted in not rendering the image correctly for iPhone devices. After applying the styling without the shorthand property the image was rendered correctly for iPhone devices.
 
-![iPhone Fix](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/images/dnb-hero-image-bug-fix.jpg)
+![iPhone Fix](https://github.com/Jordan-Boulton1/pp1-ci/blob/main/assets/documentation/dnb-hero-image-bug-fix.jpg)
 
 ### Validator Testing
 
@@ -164,14 +164,14 @@ The live link can be found here - https://jordan-boulton1.github.io/pp1-ci/
 
 - Wilkinson
 
-  - The image used on the card artist section was taken from [Google Images](https://images.sk-static.com/images/media/img/col6/20220321-160013-549361.jpg)
+  - The image used on the card artist section was taken from [Google documentation](https://documentation.sk-static.com/documentation/media/img/col6/20220321-160013-549361.jpg)
   - The text used in the card info was taken from [Soundonsound](https://www.soundonsound.com/people/wilkinson?amp)
   - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CsF65IGJYLB/?img_index=1)
   - The text used in the artist content section was taken from [Wikipedia](<https://en.wikipedia.org/wiki/Wilkinson_(musician)>)
 
 - Dimension
 
-  - The image used on the card artist section was taken from [Google Images](https://imgproxy.ra.co/_/quality:66/h:180/w:180/rt:fill/gravity:sm/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL3NxdWFyZS9kaW1lbnNpb24uanBnP2RhdGVVcGRhdGVkPTE0ODY2NTk1MzIxNDA=)
+  - The image used on the card artist section was taken from [Google documentation](https://imgproxy.ra.co/_/quality:66/h:180/w:180/rt:fill/gravity:sm/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL3NxdWFyZS9kaW1lbnNpb24uanBnP2RhdGVVcGRhdGVkPTE0ODY2NTk1MzIxNDA=)
   - The text used in the card info was taken from [Ra.co](https://ra.co/dj/dimension/biography)
   - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CqV4cFMJNl0/?img_index=1)
   - The text used in the artist content section was taken from [Wikipedia](<https://en.wikipedia.org/wiki/Dimension_(musician)>)
