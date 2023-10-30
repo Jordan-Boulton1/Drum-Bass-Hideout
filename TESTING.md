@@ -63,3 +63,11 @@ I've tested my deployed project on multiple devices to check for responsiveness 
     ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hero-image-bug-fix.png)
     
     - To fix this, I adjusted the image to apply the CSS properties without the background shorthand property. After applying these changes the image started to render on iPhone devices.
+
+## Unfixed Bugs
+
+- On devices smaller than 235px, the page elements starts to close in on themself.
+
+    ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/unfixed-bug.png)
+
+    - Attempted fix: I tried adding additional media queries to fix this bug however the text elements started to get hard to read and the images were very squashed.
