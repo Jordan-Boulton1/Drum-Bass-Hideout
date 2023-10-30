@@ -185,37 +185,6 @@ There are several features on the website that help our targeted audience naviga
 - [Visual Studio Code](https://code.visualstudio.com/) used as a cloud-based IDE for development.
 - [Balsamiq](https://balsamiq.com/) used to create wireframes in early development.
 
-## Testing
-
-The form of testing I have done to ensure that the webpage behaves correctly was mostly manual testing by using the Chrome Developer Tools. Each page while being developed was tested that it scales appropriately to different screen sizes to ensure that all the content that is used is fitting correctly.
-
-In addition to that when I deployed the final changes on the website I performed Usability testing by asking friends and family if the content of the website is clear and if the page is easy to navigate.
-All of the users came back with feedback that the page was clear and easy to use, however, users that were on iPhone devices noticed that the landing page hero image was not visible.
-
-![iPhone Bug](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hero-image-bug.jpg)
-
-The bug was happening because of the CSS background shorthand property which resulted in not rendering the image correctly for iPhone devices. After applying the styling without the shorthand property the image was rendered correctly for iPhone devices.
-
-![iPhone Fix](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hero-image-bug-fix.jpg)
-
-### Validator Testing
-
-- HTML
-
-  - No errors were returned when passing through the official validator.
-
-  Home page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Findex.html)
-
-  Artists page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Fartists.html)
-
-  Sign up page - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Fsignup.html)
-
-- CSS
-
-  - No errors were found when passing through the official. All pages share the same CSS file
-
-  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjordan-boulton1.github.io%2FDrum-Bass-Hideout%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
