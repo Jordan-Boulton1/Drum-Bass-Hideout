@@ -218,12 +218,13 @@ The bug was happening because of the CSS background shorthand property which res
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-The live link can be found here - https://jordan-boulton1.github.io/Drum-Bass-Hideout/
+- In the [GitHub repository](https://github.com/Jordan-Boulton1/pp1-ci), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://jordan-boulton1.github.io/Drum-Bass-Hideout/)
 
 ## Credits
 
