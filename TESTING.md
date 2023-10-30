@@ -53,3 +53,13 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Artists | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-artists-mobile.png) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-artists-desktop.png) | Slow response time due to large images |
 | Sign up | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-signup-mobile.png) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-signup-desktop.png) | Some minor warnings |
 | Form Validation | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-form-validation-mobile.png) | ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/testing/lighthouse-form-validation-desktop.png) | Some minor warnings |
+
+## Bugs
+
+- CSS Hero image not displaying on iPhone devices.
+
+    ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hero-image-bug.png)
+    
+    ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hero-image-bug-fix.png)
+    
+    - To fix this, I adjusted the image to apply the CSS properties without the background shorthand property. After applying these changes the image started to render on iPhone devices.
