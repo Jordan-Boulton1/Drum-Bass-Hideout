@@ -174,6 +174,17 @@ There are several features on the website that help our targeted audience naviga
 - Merchandise Shop
     - Another feature I would have liked to implement would have been a merchandise shop to allow users to buy products of their beloved artists.
 
+## Tools & Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) used for an enhanced responsive layout.
+- [GitHub Desktop](https://desktop.github.com/) used GitHub Desktop application for version control. (`git add`, `git commit`, `git push` `git pull`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Visual Studio Code](https://code.visualstudio.com/) used as a cloud-based IDE for development.
+- [Balsamiq](https://balsamiq.com/) used to create wireframes in early development.
+
 ## Testing
 
 The form of testing I have done to ensure that the webpage behaves correctly was mostly manual testing by using the Chrome Developer Tools. Each page while being developed was tested that it scales appropriately to different screen sizes to ensure that all the content that is used is fitting correctly.
