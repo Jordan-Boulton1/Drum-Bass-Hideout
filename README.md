@@ -263,52 +263,47 @@ You can fork this repository by using the following steps:
 
 ### Content
 
-- All icons contained in the home, artist pages and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The text fonts used were taken from [Google Fonts](https://fonts.google.com/)
-- The artist cards on the artist page were made with the help of a [YouTube Tutorial](https://www.youtube.com/watch?v=9FNNkzPBFcE)
-- The scroll up button was made with the help of this [Tutorial](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678)
-- The website used to help with the contrasting colors was [Huemint](https://huemint.com/website-1/#palette=e7eef4-1d1d25-e25e0f)
-- The wildcard selector used was taken from the Love Running project.
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Font Awesome](https://fontawesome.com/) | entire site | helpful website that provided the icons throughout the page |
+| [Developer Spotify](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed) | artists page | documentation to help embed the spotify player |
+| [Level Up Coding](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678) | entire site | interactive scroll up button |
+| [W3Schools](https://www.w3schools.com/css/css_navbar.asp) | entire site | responsive HTML/CSS navbar |
+| [YouTube](https://www.youtube.com/watch?v=9FNNkzPBFcE) | artists page | responsive HTML/CSS cards tutorial |
+| [Huemint](https://huemint.com/website-1/#palette=e7eef4-1d1d25-ff8c00) | entire site | tool used to help create contrasting colors |
 
 ### Media
 
-#### Home
-
-- The landing page image was taken from [Unsplash](https://unsplash.com/photos/group-of-people-inside-the-concert-gwQAhisLnRA)
-- The image for the 5 interactive tiles was taken from [Unsplash](https://unsplash.com/photos/black-and-blue-audio-mixer-V_-j-nWd4jE)
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Unsplash](https://unsplash.com/photos/group-of-people-inside-the-concert-gwQAhisLnRA) | home page | image | hero image background |
+| [Unsplash](https://unsplash.com/photos/black-and-blue-audio-mixer-V_-j-nWd4jE) | home page | image | tile background image |
+| [Pexels](https://www.pexels.com/photo/selective-focus-photography-of-turned-on-mixing-console-2209315/) | sign up page | image | hero image background |
+| [Unsplash](https://unsplash.com/photos/silhouette-photo-of-man-jumped-off-on-top-of-people-inside-party-hall-y71EsQ-U3No) | sign up page | image | hero image background used in the signup redirect |
 
 ### Artists
+| Source | Location | Artist | Type | Notes |
+| --- | --- | --- | --- | --- |
+| [Songkick](https://www.songkick.com/images/38641209)| artist page | Wilkinson | image | image used for card |
+| [Instagram](https://www.instagram.com/p/CsF65IGJYLB/?img_index=1)| artist page | Wilkinson | image | image used for artist about section |
+| [Wikipedia](https://en.wikipedia.org/wiki/Wilkinson_(musician)) | artist page | Wilkinson | text | text used for artist about section |
+| [Soundonsound](https://www.soundonsound.com/people/wilkinson?amp)| artist page | Wilkinson | text | text used to create the artist card |
+| [Resident Advisor](https://imgproxy.ra.co/_/quality:66/h:180/w:180/rt:fill/gravity:sm/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL3NxdWFyZS9kaW1lbnNpb24uanBnP2RhdGVVcGRhdGVkPTE0ODY2NTk1MzIxNDA=)| artist page | Dimension | image | image used for card |
+| [Instagram](https://www.instagram.com/p/CqV4cFMJNl0/?img_index=1)| artist page | Dimension | image | image used for artist about section |
+| [Resident Advisor](https://ra.co/dj/dimension/biography)| artist page | Dimension | text | text used to create the artist card |
+| [Wikipedia](https://en.wikipedia.org/wiki/Dimension_(musician))| artist page| Dimension| text | text used for artist about section|
+| [Tape Notes](https://tapenotes.co.uk/wp-content/uploads/2023/06/Sub-Focus-580-x-580.jpg)| artist page | Sub Focus | image | image used for card |
+| [Instagram](https://www.instagram.com/p/CxxcC1Fof98/?img_index=1)| artist page| Sub Focus | image | image used for artist about section |
+| [Resident Advisor](https://ra.co/dj/subfocus/biography)| artist page | Sub Focus | text | text used to create the artist card |
+| [Wikipedia](https://en.wikipedia.org/wiki/Sub_Focus)|artist page | Sub Focus | text | text used for artist about section |
+| [Soundcloud](https://soundcloud.com/culture-shock)| artist page | Culture Shock | image | image used for card |
+| [Instagram](https://www.instagram.com/p/CU4z1umo0aj/?img_index=1)| artist page| Culture Shock | image | image used for artist about section |
+| [Primary Talent](https://primarytalent.com/culture-shock/)| artist page | Culture Shock | text | text used to create the artist card |
+| [Cultureshockmusic](https://www.cultureshockmusic.co.uk/bio)| artist page| Culture Shock | text| text used for artist about section
 
-- All players in the page belong to [Spotify](https://open.spotify.com/)
+### Acknowledgements
 
-- Wilkinson
-
-  - The image used on the card artist section was taken from [Google documentation](https://documentation.sk-static.com/documentation/media/img/col6/20220321-160013-549361.jpg)
-  - The text used in the card info was taken from [Soundonsound](https://www.soundonsound.com/people/wilkinson?amp)
-  - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CsF65IGJYLB/?img_index=1)
-  - The text used in the artist content section was taken from [Wikipedia](<https://en.wikipedia.org/wiki/Wilkinson_(musician)>)
-
-- Dimension
-
-  - The image used on the card artist section was taken from [Google documentation](https://imgproxy.ra.co/_/quality:66/h:180/w:180/rt:fill/gravity:sm/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL3NxdWFyZS9kaW1lbnNpb24uanBnP2RhdGVVcGRhdGVkPTE0ODY2NTk1MzIxNDA=)
-  - The text used in the card info was taken from [Ra.co](https://ra.co/dj/dimension/biography)
-  - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CqV4cFMJNl0/?img_index=1)
-  - The text used in the artist content section was taken from [Wikipedia](<https://en.wikipedia.org/wiki/Dimension_(musician)>)
-
-- Sub Focus
-
-  - The image used on the card artist section was taken from [Tape Notes](https://tapenotes.co.uk/project/tn1116-sub-focus)
-  - The text used in the card info was taken from [Ra.co](https://ra.co/dj/subfocus/biography)
-  - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CxxcC1Fof98/?img_index=1)
-  - The text used in the artist content section was taken from [Wikipedia](https://en.wikipedia.org/wiki/Sub_Focus)
-
-- Culture Shock
-  - The image used on the card artist section was taken from [Soundcloud](https://soundcloud.com/culture-shock)
-  - The text used in the card info was taken from [Primarytalent](https://primarytalent.com/culture-shock/)
-  - The image on the artist content section was taken from [Instagram](https://www.instagram.com/p/CU4z1umo0aj/?img_index=1)
-  - The text used in the artist content section was taken from [Cultureshockmusic](https://www.cultureshockmusic.co.uk/bio)
-
-### Sign up
-
-- The image used for the background of the sign up page was taken from [Pexels](https://www.pexels.com/photo/selective-focus-photography-of-turned-on-mixing-console-2209315/)
-- The image used for the sign up redirect was taken from [Unsplash](https://unsplash.com/photos/silhouette-photo-of-man-jumped-off-on-top-of-people-inside-party-hall-y71EsQ-U3No)
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank my partner (Stefani), for believing in me, and allowing me to make this transition into software development.
