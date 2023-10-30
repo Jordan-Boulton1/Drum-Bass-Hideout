@@ -268,6 +268,7 @@ You can fork this repository by using the following steps:
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Font Awesome](https://fontawesome.com/) | entire site | helpful website that provided the icons throughout the page |
 | [Developer Spotify](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed) | artists page | documentation to help embed the spotify player |
+| [ReduceImages](https://www.reduceimages.com/) | entire site | tool to help reduce the size of images |
 | [Level Up Coding](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678) | entire site | interactive scroll up button |
 | [W3Schools](https://www.w3schools.com/css/css_navbar.asp) | entire site | responsive HTML/CSS navbar |
 | [YouTube](https://www.youtube.com/watch?v=9FNNkzPBFcE) | artists page | responsive HTML/CSS cards tutorial |
