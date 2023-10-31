@@ -185,6 +185,10 @@ There are several features on the website that help our targeted audience naviga
 - [Visual Studio Code](https://code.visualstudio.com/) used as a cloud-based IDE for development.
 - [Balsamiq](https://balsamiq.com/) used to create wireframes in early development.
 
+## Testing
+
+To read about how the website was tested, please refer to the [TESTING.md](TESTING.md) file.
+
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
