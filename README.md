@@ -3,7 +3,7 @@
 Drum&Bass Hideout is a website that strives to give people who are passionate about the UK Drum and Bass scene a chance to experience the best artists by reading into their background and listening to some of their top tracks through our interactive Spotify plugin.  
 Drum&Bass Hideout also wants to give a chance to the non-stop ravers to tune into our 24/7 radio to keep the party mood throughout the week. For those who are more of the weekend ravers we have our live sessions every Saturday.
 
-![Responsive Mockup](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/responsive-mockup.png)
+![Responsive Mockup](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/responsive-mockup.png)
 
 ## UX
 
@@ -19,7 +19,7 @@ When picking the colours for my website I went for an "underground" style consis
 
 I used [huemint.com](https://huemint.com/website-1/#palette=e7eef4-1d1d25-ff8c00) to generate my colour palette.
 
-![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/huemint.png)
+![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/huemint.png)
 
 ### Typography
 
@@ -39,13 +39,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-home-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/mobile-home-page.png)
 
 Artist
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-artist-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/mobile-artist-page.png)
 
 Sign up
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/mobile-signup-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/mobile-signup-page.png)
 </details>
 
 ### Tablet Wireframes
@@ -54,13 +54,13 @@ Sign up
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-home-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/tablet-home-page.png)
 
 Artist
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-artist-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/tablet-artist-page.png)
 
 Sign up
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/tablet-signup-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/tablet-signup-page.png)
 </details>
 
 ### Desktop Wireframes
@@ -69,13 +69,13 @@ Sign up
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-home-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/desktop-home-page.png)
 
 Artist
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-artist-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/desktop-artist-page.png)
 
 Sign up
-  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/wireframes/desktop-signup-page.png)
+  - ![screenshot](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/wireframes/desktop-signup-page.png)
 </details>
 
 ## Features
@@ -91,23 +91,23 @@ There are several features on the website that help our targeted audience naviga
   - The navigation bar will allow users to easily navigate across the three pages that we offer with support on all devices. This prevents the user from having to use the "back" button.
   - While scrolling through the page the user will notice that the navigation bar is sticky which allows them to have easy access to the rest of the pages offered.
 
-![Nav Bar](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-navbar.png)
+![Nav Bar](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-navbar.png)
 
-![Nav Bar Mobile Closed](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-mobile-navbar-closed.png)
+![Nav Bar Mobile Closed](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-mobile-navbar-closed.png)
 
-![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-mobile-navbar-opened.png)
+![Nav Bar Mobile Open](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-mobile-navbar-opened.png)
 
 - **The landing page image**
   - The landing page image contains a paragraph with overlay to clearly state what the website is about as soon as the user arrives.
   - The landing hero image clearly conveys to the users that the context of the website is about music.
 
-![Landing Page](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-landing-hero.png)
+![Landing Page](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-landing-hero.png)
 
 - **What we offer Section**
 
   - This section will allow users to instantly find out what the Drum&Bass Hideout has to offer, which will encourage the users to keep exploring the content of the website.
 
-![What we offer](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-landing-offer.png)
+![What we offer](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-landing-offer.png)
 
 - **Meetup Times section**
 
@@ -115,7 +115,7 @@ There are several features on the website that help our targeted audience naviga
   - The user can also clearly see when and where this content is available.
   - This section is also used to compliment the section above by allowing the user to interact with some of the content that is offered.
 
-![Experience The Drum&Bass Hideout section](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-landing-experience.png)
+![Experience The Drum&Bass Hideout section](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-landing-experience.png)
 
 - **The Footer**
 
@@ -126,13 +126,13 @@ There are several features on the website that help our targeted audience naviga
     - The third segment is a disclaimer that notifies the user of the owner ship of the media content used on the website.
   - The footer is valuable to the users because it gives them information about who the author of the page is and how to get in touch.
 
-![Footer](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-footer.png)
+![Footer](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-footer.png)
 
 - **Up Button**
 
   - This button is featured on the Home and Artist page which allows users when scrolling down through the page to easily navigate all the way to the top without having to scroll all the way back up.
 
-![Up Button](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-up-btn.png)
+![Up Button](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-up-btn.png)
 
 - **Artist Page**
 
@@ -144,7 +144,7 @@ There are several features on the website that help our targeted audience naviga
   - Each card contains an image of the specific artist, a heading with the name of the artist, a paragraph with a eye-catching introduction of the artist and a "Read More" button which directs the user to the specific section on the page about the artist.
   - This brings value to the users to quickly identify which artist they want to explore more about without having to scroll further down the to find the specific artist section they are looking for.
 
-![Gallery](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-artist-cards.png)
+![Gallery](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-artist-cards.png)
 
 - **Artist content section**
 
@@ -155,9 +155,9 @@ There are several features on the website that help our targeted audience naviga
   - As the user scrolls further down the page they can see that a similar section is followed, however the content is flipped. This design was chosen to make the page feel more interactive.
   - Each section of the artists gives value to the user to experience the artist both visually and audibly.
 
-![Artist Content Section](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-artist-section.png)
+![Artist Content Section](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-artist-section.png)
 
-![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-artist-section-reverse.png)
+![Artist Content Section Reverse](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-artist-section-reverse.png)
 
 - **Sign up**
 
@@ -165,9 +165,9 @@ There are several features on the website that help our targeted audience naviga
   - The Sign up form has a validator that encourages users to use a valid email when signing up.
   - The Sign up page redirects you to a thank you page after submitting the form. After the user waits 10 seconds they are redirected back to the home page which prevents them from using the back button.
 
-![Sign Up](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-signup.png)
+![Sign Up](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-signup.png)
 
-![Sign Up Redirect](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-signup-redirect.png)
+![Sign Up Redirect](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/documentation/dnb-hideout-signup-redirect.png)
 
 ### Future Features
 
