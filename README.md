@@ -209,7 +209,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Jordan-Boulton1/Drum-Bass-Hideout`
+	- `git clone https://github.com/Jordan-Boulton1/Drum-Bass-Hideout.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
