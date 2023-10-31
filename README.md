@@ -163,7 +163,7 @@ There are several features on the website that help our targeted audience naviga
 
   - The Sign up page allows the user to sign up to stay involved with what the Drum&Bass Hideout has to offer.
   - The Sign up form has a validator that encourages users to use a valid email when signing up.
-  - The Sign up page redirects you to a thank you page after submitting the form.
+  - The Sign up page redirects you to a thank you page after submitting the form. After the user waits 10 seconds they are redirected back to the home page which prevents them from using the back button.
 
 ![Sign Up](https://github.com/Jordan-Boulton1/Drum-Bass-Hideout/blob/main/assets/documentation/dnb-hideout-signup.png)
 
